@@ -1,0 +1,17 @@
+{
+	"name": "AzureSynapseAnalytics1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"server": "wrkspckpsp.sql.azuresynapse.net",
+			"database": "dedsqlpsp",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sqladminuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBEQkUxNTNDLTNERjgtNDRCNC1BOUJCLTUyMzg1MzBFOUFFNF9iYTUwZGQ2YS02ZTI2LTRhNWMtOTdjZC1lYzI5NWE4ZWQxODMiDQp9"
+		}
+	}
+}
