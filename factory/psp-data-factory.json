@@ -1,0 +1,9 @@
+{
+	"name": "psp-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f37afa84-468e-4e7c-a9a7-a244560b3b3a",
+		"tenantId": "9e52d38f-e6a6-4eaf-89f9-56fd668e600e"
+	}
+}
